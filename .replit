@@ -1,3 +1,6 @@
-run = ["bash", "main.sh"]
-
+# Replit configuration for the graphical Firefox runner.
+run = "bash main.sh"
 entrypoint = "main.sh"
+
+# The Output pane is the graphical surface used by Firefox.
+audio = false

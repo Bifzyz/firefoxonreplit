@@ -1,9 +1,7 @@
 { pkgs }: {
-    deps = [
-        pkgs.bashInteractive
-        pkgs.chromedriver
-        pkgs.firefox
-        pkgs.xdotool
-        pkgs.chromium
-    ];
+  deps = [
+    pkgs.bashInteractive
+    pkgs.firefox
+    pkgs.xdotool
+  ];
 }
